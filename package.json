@@ -1,0 +1,28 @@
+{
+  "name": "backend-core",
+  "version": "1.0.0",
+  "description": "Core backend service built with Node.js and Express.js, providing a clean architecture for APIs, business logic, and integrations.",
+  "keywords": [
+    "Backend",
+    "nodejs",
+    "expressjs"
+  ],
+  "homepage": "https://github.com/tarzikorichi/backend-core#readme",
+  "bugs": {
+    "url": "https://github.com/tarzikorichi/backend-core/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarzikorichi/backend-core.git"
+  },
+  "license": "ISC",
+  "author": "Korichi Tarzi",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
