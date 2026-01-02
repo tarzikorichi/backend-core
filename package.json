@@ -1,28 +1,53 @@
 {
   "name": "backend-core",
   "version": "1.0.0",
-  "description": "Core backend service built with Node.js and Express.js, providing a clean architecture for APIs, business logic, and integrations.",
-  "keywords": [
-    "Backend",
-    "nodejs",
-    "expressjs"
-  ],
-  "homepage": "https://github.com/tarzikorichi/backend-core#readme",
-  "bugs": {
-    "url": "https://github.com/tarzikorichi/backend-core/issues"
+  "description": "Core backend service built with Node.js and Express.js, providing a clean architecture for APIs, business logic, and integrations.\r https://www.youtube.com/watch?v=9BD9eK9VqXA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tarzikorichi/backend-core.git"
   },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "author": "Korichi Tarzi",
   "type": "commonjs",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/tarzikorichi/backend-core/issues"
+  },
+  "homepage": "https://github.com/tarzikorichi/backend-core#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@tsconfig/node20": "^20.1.8",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.0.3",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.12.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^17.0.0",
+    "jest": "^30.2.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.7.4",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.51.0"
+  },
+  "overrides": {
+    "eslint": "^9.39.2"
   },
   "dependencies": {
-    "express": "^4.22.1"
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
   }
 }
