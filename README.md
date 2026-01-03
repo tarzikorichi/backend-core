@@ -12,4 +12,6 @@ https://www.youtube.com/watch?v=9BD9eK9VqXA
 6- npm install eslint-plugin-prettier eslint-config-prettier prettier --save-dev
 7- npm install express cors morgan
 8- npm install @types/express @types/cors @types/morgan --save-dev
-https://www.youtube.com/watch?v=yD7X1qJA5nA  ::  10.34
+
+9- npm install dotenv-cli --save-dev #for environment variables
+https://www.youtube.com/watch?v=yD7X1qJA5nA  ::  22.10
